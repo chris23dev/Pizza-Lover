@@ -1,0 +1,16 @@
+// Pizza
+export const LIST_PIZZA_REQUEST = 'pizza/LIST_PIZZA_REQUEST';
+export const LIST_PIZZA_SUCCESS = 'pizza/LIST_PIZZA_SUCCESS';
+export const LIST_PIZZA_FAILURE = 'pizza/LIST_PIZZA_FAILURE';
+
+export const GET_PIZZA_REQUEST = 'pizza/GET_PIZZA_REQUEST';
+export const GET_PIZZA_SUCCESS = 'pizza/GET_PIZZA_SUCCESS';
+export const GET_PIZZA_FAILURE = 'pizza/GET_PIZZA_FAILURE';
+
+export const ADD_PIZZA_REQUEST = 'pizza/ADD_PIZZA_REQUEST';
+export const ADD_PIZZA_SUCCESS = 'pizza/ADD_PIZZA_SUCCESS';
+export const ADD_PIZZA_FAILURE = 'pizza/ADD_PIZZA_FAILURE';
+
+export const REMOVE_PIZZA_REQUEST = 'pizza/REMOVE_PIZZA_REQUEST';
+export const REMOVE_PIZZA_SUCCESS = 'pizza/REMOVE_PIZZA_SUCCESS';
+export const REMOVE_PIZZA_FAILURE = 'pizza/REMOVE_PIZZA_FAILURE';

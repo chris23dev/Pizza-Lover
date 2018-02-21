@@ -1,0 +1,56 @@
+
+.content-list {
+  text-align: center;
+  margin-top: 100px;
+  .title {
+    p {
+      font-size: 30px;
+      color: black;
+      font-weight: bold;
+    }
+  }
+  .cart {
+    margin-top: 30px;
+    .empty {
+      padding: 50px;
+      text-align: center;
+    }
+    .topping {
+      padding: 20px;
+      a {
+        color: red;
+        cursor: pointer;
+      }
+    }
+  }
+  .checkout-button {
+    margin-top: 30px;
+  }
+}
+
+.add-modal {
+  .card {
+    text-align: left;
+    .data {
+      p {
+        display: inline-block;
+        margin-top: 10px;
+        margin-left: 10px;
+      }
+    }
+    .toppings {
+      .topping {
+        padding-left: 30px;
+        display: flex;
+        justify-content: space-between;
+        label {
+          display: inline-block;
+        }
+        .price {
+          float: right;
+          padding-right: 10px;
+        }
+      }
+    }
+  }
+}
